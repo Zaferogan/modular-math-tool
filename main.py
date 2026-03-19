@@ -9,5 +9,11 @@ def main():
     ergebnis_minus = math_ops.subtract(10, 5)
     print(f"10 - 5 = {ergebnis_minus}")
 
+    ergebnis_multi = math_ops.multiply(10,5)
+    print(f"10*5 = {ergebnis_multi}")
+
+    ergebnis_divid = math_ops.dividiere(10,5)
+    print(f"10/5 = {ergebnis_divid}")
+
 if __name__ == "__main__":
     main()
